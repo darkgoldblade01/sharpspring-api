@@ -1,1 +1,19 @@
-
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "gauravtechie/sharpspring-api",
+            "version": "master",
+            "source": {
+                "url": "git://github.com/gauravtechie/sharpspring-api.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                     "src"
+                }
+            }
+        }
+    }
+],

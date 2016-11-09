@@ -55,10 +55,7 @@ class SharpSpring
 			));                                                                                           
 
 			$result = curl_exec($ch);                                                                     
-			curl_close($ch);                                                                              
-
-			print_r($result);
-			exit;
+			curl_close($ch);
             
         } else {
             $json_data = json_encode($args);

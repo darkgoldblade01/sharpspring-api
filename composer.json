@@ -1,5 +1,5 @@
 {
-    "name": "collingmedia/sharpspring-api",
+    "name": "colling-media/sharpspring-api",
     "autoload": {
         "psr-0" : {
             "" : "src"

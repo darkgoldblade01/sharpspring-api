@@ -1,5 +1,5 @@
 {
-    "name": "gauravtechie/sharpspring-api",
+    "name": "collingmedia/sharpspring-api",
     "autoload": {
         "psr-0" : {
             "" : "src"

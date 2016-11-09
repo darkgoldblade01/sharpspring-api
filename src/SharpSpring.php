@@ -1,13 +1,6 @@
 <?php
 
-namespace AngeloPublio;
-/**
- * Super-simple SharpSpring API v1 wrapper, in PHP.
- * 
- * @author Angelo Públio <angelopublio.com> 
- * @version 0.1
- */
-
+namespace CollingMedia;
 
 class SharpSpring
 {
@@ -21,13 +14,8 @@ class SharpSpring
         $this->accountID = $accountID;
         $this->secretKey = $secretKey;
     }
-    
-    public function call($method, $args=array())
-    {
-        return $this->makeRequest($method, $args);
-    }
 
-    private function makeRequest($method, $args=array())
+    public function call($method, $args=array())
     {      
 
 
